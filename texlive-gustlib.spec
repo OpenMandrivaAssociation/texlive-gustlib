@@ -1,3 +1,9 @@
+# revision 15878
+# category Package
+# catalog-ctan undef
+# catalog-date 2007-01-21 11:04:51 +0100
+# catalog-license pd
+# catalog-version undef
 Name:		texlive-gustlib
 Version:	20070121
 Release:	1
@@ -68,6 +74,7 @@ contents, appears on CTAN.
 %doc %{_texmfdistdir}/doc/plain/gustlib/readme.biblotex
 %doc %{_texmfdistdir}/doc/plain/gustlib/readme.plbtx993
 %doc %{_texmfdistdir}/doc/plain/gustlib/readme.plmac218
+%doc %{_tlpkgobjdir}/*.tlpobj
 
 #-----------------------------------------------------------------------
 %prep
@@ -78,3 +85,5 @@ contents, appears on CTAN.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+mkdir -p %{buildroot}%{_tlpkgobjdir}
+cp -fpa tlpkg/tlpobj/*.tlpobj %{buildroot}%{_tlpkgobjdir}
