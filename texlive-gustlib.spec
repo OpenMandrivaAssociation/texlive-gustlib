@@ -75,3 +75,17 @@ contents, appears on CTAN.
 %install
 mkdir -p %{buildroot}%{_texmfdistdir}
 cp -fpar bibtex tex doc %{buildroot}%{_texmfdistdir}
+
+
+%changelog
+* Wed Jan 04 2012 Paulo Andrade <pcpa@mandriva.com.br> 20070121-2
++ Revision: 752456
+- Rebuild to reduce used resources
+
+* Sat Nov 05 2011 Paulo Andrade <pcpa@mandriva.com.br> 20070121-1
++ Revision: 718594
+- texlive-gustlib
+- texlive-gustlib
+- texlive-gustlib
+- texlive-gustlib
+
