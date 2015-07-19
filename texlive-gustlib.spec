@@ -6,7 +6,7 @@
 # catalog-version undef
 Name:		texlive-gustlib
 Version:	20070121
-Release:	9
+Release:	10
 Summary:	Polish oriented macros
 Group:		Publishing
 URL:		http://tug.org/texlive
