@@ -5,7 +5,7 @@
 # catalog-license pd
 # catalog-version undef
 Name:		texlive-gustlib
-Version:	20171108
+Version:	20180303
 Release:	1
 Summary:	Polish oriented macros
 Group:		Publishing
