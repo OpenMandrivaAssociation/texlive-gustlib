@@ -1,6 +1,6 @@
 Name:		texlive-gustlib
 Version:	54074
-Release:	1
+Release:	2
 Summary:	Polish oriented macros
 Group:		Publishing
 URL:		http://tug.org/texlive
