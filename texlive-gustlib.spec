@@ -3,7 +3,7 @@ Version:	54074
 Release:	2
 Summary:	Polish oriented macros
 Group:		Publishing
-URL:		http://tug.org/texlive
+URL:		https://tug.org/texlive
 License:	PD
 Source0:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gustlib.r%{version}.tar.xz
 Source1:	http://mirrors.ctan.org/systems/texlive/tlnet/archive/gustlib.doc.r%{version}.tar.xz
